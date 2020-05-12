@@ -1,4 +1,4 @@
-list = ["stuff", "things", "garbage"]
+list = 
 
 def my_each(array)
   i = 0
