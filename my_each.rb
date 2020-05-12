@@ -25,5 +25,3 @@ def hello(array)
   end
   collection
 end
-
-hello(peeps) {|i| "You're my precious #{i}."}
