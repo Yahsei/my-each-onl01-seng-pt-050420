@@ -26,4 +26,4 @@ def hello(array)
   collection
 end
 
-hello(list) {|i| "You're my precious #{i}."}
+hello(peeps) {|i| "You're my precious #{i}."}
