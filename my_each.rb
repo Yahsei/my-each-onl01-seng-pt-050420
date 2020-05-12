@@ -1,4 +1,4 @@
-list = ["ab", "cd", "ef"]
+list = ["stuff", "things", "garbage"]
 
 def my_each(array)
   i = 0
@@ -9,7 +9,7 @@ def my_each(array)
   end
 end
 
-my_each(list) {|i| return "So I think #{i} is a piece of shit"}
+my_each(list) {|i| return "Don't touch my #{i}!!!"}
 
 # Use the collection method 
 # To make the *return-value* the answer you want
