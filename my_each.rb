@@ -6,9 +6,6 @@ while i < array.length
   yield(array[i])
   i = i + 1
   end
-end
-end
-end
 
 my_each(list) {|i| puts "So I think #{i} is a piece of shit"}
 
