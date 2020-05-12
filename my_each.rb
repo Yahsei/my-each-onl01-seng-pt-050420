@@ -16,13 +16,3 @@ my_each(peeps) {|i| return "Don't touch my #{i}!!!"}
 # To make the *return-value* the answer you want
 # instead of "=> nil"
 
-hello(peeps) {|i| "You're my precious #{i}."}def hello(array)
-  i = 0
-  collection = []
-  while i < array.length
-    collection << yield(array[i])
-    i += 1
-  end
-  collection
-end
-
