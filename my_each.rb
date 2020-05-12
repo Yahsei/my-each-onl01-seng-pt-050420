@@ -10,7 +10,7 @@ def my_each(array)
   end
 end
 
-my_each(list) {|i| return "Don't touch my #{i}!!!"}
+my_each(peeps) {|i| return "Don't touch my #{i}!!!"}
 
 # Use the collection method 
 # To make the *return-value* the answer you want
