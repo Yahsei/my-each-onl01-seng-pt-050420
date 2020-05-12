@@ -25,4 +25,4 @@ def hello(array)
   collection
 end
 
-hello(list) {|i| "Hello #{i} what's up?"}
+hello(list) {|i| "You're my precious #{i}."}
