@@ -1,4 +1,4 @@
-peeps = ['arel', 'jon', 'logan', 'spencer']
+peeps = ["Jamila", "Josh", "Kevin"]
 
 
 def my_each(array)
