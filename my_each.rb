@@ -4,13 +4,12 @@ def my_each(array)
   i = 0
 while i < array.length 
   yield(array[i])
-  my_each(list) do |i|
   i = i + 1
   end
 end
 end
 
-my_each(lnst) {|i| puts "So I think #{i} is a piece of shit"}
+my_each(list) {|i| puts "So I think #{i} is a piece of shit"}
 
 def hello(array)
   i = 0
