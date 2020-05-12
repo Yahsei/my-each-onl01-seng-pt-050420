@@ -21,3 +21,5 @@ def hello(array)
   end
   collection
 end
+
+hello(mine) {|i| "Hello #{i} what's up?"}
