@@ -1,16 +1,16 @@
-mine = ["stuff", "things", "garbage"]
+list = ["stuff", "things", "garbage"]
 
 def my_each(array)
   i = 0
 while i < array.length 
   yield(array[i])
-  my_each(mine) do |i|
+  my_each(list) do |i|
   i = i + 1
   end
 end
 end
 
-my_each(mine) {|i| puts "So I think #{i} is a piece of shit"}
+my_each(lnst) {|i| puts "So I think #{i} is a piece of shit"}
 
 def hello(array)
   i = 0
@@ -22,4 +22,4 @@ def hello(array)
   collection
 end
 
-hello(mine) {|i| "Hello #{i} what's up?"}
+hello(llst) {|i| "Hello #{i} what's up?"}
