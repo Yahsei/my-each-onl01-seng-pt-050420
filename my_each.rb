@@ -15,7 +15,7 @@ my_each(mine) {|i| puts "So I think #{i} is a piece of shit"}
 def hello(array)
   i = 0
   collection = []
-  while i < miney.length
+  while i < array.length
     collection << yield(array[i])
     i += 1
   end
