@@ -8,6 +8,7 @@ while i < array.length
   end
 end
 end
+end
 
 my_each(list) {|i| puts "So I think #{i} is a piece of shit"}
 
