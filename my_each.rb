@@ -16,7 +16,7 @@ my_each(peeps) {|i| return "Don't touch my #{i}!!!"}
 # To make the *return-value* the answer you want
 # instead of "=> nil"
 
-def hello(array)
+hello(peeps) {|i| "You're my precious #{i}."}def hello(array)
   i = 0
   collection = []
   while i < array.length
@@ -26,4 +26,3 @@ def hello(array)
   collection
 end
 
-hello(peeps) {|i| "You're my precious #{i}."}
